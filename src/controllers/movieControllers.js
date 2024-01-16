@@ -98,7 +98,6 @@ const updateMovie = (req, res) => {
       res.sendStatus(422);
     });
 };
-// in movieControllers.js
 
 const deleteMovie = (req, res) => {
   const id = parseInt(req.params.id);
